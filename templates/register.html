@@ -7,6 +7,17 @@
     <title>Register</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Register Form</h1>
+        <br>
+        <form action="" method="post">
+            <input type="text" placeholder="Username" name="username" value="{{  request.form.username  }}">
+            <br>
+            <input type="text" placeholder="Password" name="password" value="{{  request.form.password  }}">
+            <br>
+            <input type="text" placeholder="Name" name="name" value="{{  request.form.name  }}">
+            <input class="btn btn-default" type="submit" value="Sign in">
+        </form>
+    </div>
 </body>
 </html>
